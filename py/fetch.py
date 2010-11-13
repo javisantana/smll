@@ -61,6 +61,8 @@ if __name__ == '__main__':
     print t.timeit(number=1)
     t = Timer("multi(reg_nos)", "from __main__ import multi, reg_nos")
     print t.timeit(number=1)
+    """
     t = Timer("threaded(reg_nos)", "from __main__ import threaded, reg_nos")
     print t.timeit(number=1)
+    """
 
